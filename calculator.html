@@ -1,0 +1,82 @@
+<html>
+    <head><title>calculator</title>
+     
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-image:url(cl.jpg);
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            width:500px;
+        }
+      table{position: absolute;top: 50%;left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    th{
+        border: 1px solid black;
+    }
+      td,tr{border: 1px solid black;
+        height:50px;width: 50px;
+        font-size: medium;
+        
+    } 
+      button{
+        height:50px;
+        width:50px;
+        font-size: 20px;
+      }
+       th{height:50%;border: 20%;}
+     input{
+        height:50px;
+        width:220px;
+     }
+     h1{
+        font-size:30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style:oblique;
+        color:rgba(22, 107, 112, 0.9);
+        position: absolute;
+        top:10%;
+        left:25%;
+        text-transform: capitalize;
+        text-shadow:1px 1px 50px rgb(144, 23, 140);
+     }
+    </style>
+    </head>
+<body>
+    <h1><marquee>hello ankit chauhan welcome to new calculator</marquee></h1>
+    <table align="center">
+        <tr>
+         <th colspan="4"><input id="input1" type="text"></th>
+        </tr>
+<tr>
+    <td><button>c</button></td>
+    <td><button>1</button></td>
+    <td><button>2</button></td>
+    <td><button>+</button></td>
+</tr>
+<tr>
+    <td><button>3</button></td>
+    <td><button>4</button></td>
+    <td><button>5</button></td>
+    <td><button>-</button></td>
+</tr>
+<tr>
+    <td><button>6</button></td>
+    <td><button>7</button></td>
+    <td><button>8</button></td>
+    <td><button>*</button></td>
+</tr>
+<tr>
+    <td><button>9</button></td>
+    <td><button>0</button></td>
+    <td><button>/</button></td>
+    <td><button>=</button></td>
+</tr>
+    </table>
+    <script src="calscript.js"></script>
+</body>
+</html>
